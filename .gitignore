@@ -1,0 +1,11 @@
+# === GitHub 超级工具箱 自动生成 ===
+node_modules/
+*.log
+.cache/
+dist/
+build/
+.vscode/
+.env
+.DS_Store
+Thumbs.db
+**/.git/
