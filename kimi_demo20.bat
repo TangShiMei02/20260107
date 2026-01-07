@@ -426,7 +426,7 @@ echo 正在生成项目结构树...
 ) > "%OUT_FILE%"
 
 echo [SUCCESS] 结构已生成: %CD%\%OUT_FILE%"
-choice /C YN /N /M "是否打开文件查看？"
+choice /C YN /N /M "是否打开文件查看？( 是 Y / 否 N)"
 if %errorlevel%==1 start notepad "%OUT_FILE%"
 pause
 goto MAIN_MENU
